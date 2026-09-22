@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+    <title>DevTech</title>
+  </head>
+  <body>
+    <!-- header -->
+     <header>
+      <nav class="text-white absolute z-50 flex items-center justify-between  top-6 left-10 right-10 lg:left-10 lg:right-10">
+         <!-- Logo  -->
+        <h1
+          class="text-3xl font-bold bg-gradient-to-b from-blue-500 to-purple-600 text-transparent bg-clip-text"
+        >
+          <a href="#"> DevTech </a>
+        </h1>
+
+         <!-- Navbar  -->
+        <ul class=" gap-10 font-medium hidden lg:flex items-center ">
+          <li class="text-blue-500 hover:text-purple-600 cursor-pointer transition-all duration-300 ease">
+            <a href="#hero">Home</a>
+          </li>
+          <li class="text-blue-500 hover:text-purple-600 cursor-pointer transition-all duration-300 ease">
+            <a href="#features" class="">Features</a>
+          </li>
+          <li class="text-blue-500 hover:text-purple-600 cursor-pointer transition-all duration-300 ease">
+            <a href="#services">Services</a>
+          </li>
+        </ul>
+
+     <a href="#footer" class="self-center inline-flex items-center gap-2 border border-blue-500 text-blue-500 py-3 px-4 rounded-full font-medium hover:text-purple-600 hover:border-purple-600 hover:-translate-y-1 active:text-white active:bg-purple-600 active:border-purple-600 active:scale-95 transition-all duration-300 ease-in-out"> Start Now </a>
+       
+      </nav>
+    </header>
+    <main>
+      <!-- hero -->
+        <section
+    id="hero"
+    style="
+      background-image:
+        linear-gradient(rgba(2, 6, 23, 0.75), rgba(2, 6, 23, 0.85)),
+        url('assets/images/computer.jpg');
+    "
+    class="min-h-screen bg-cover bg-center relative pt-32 pb-16"
+  >
+
+    <div class="px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+            <!-- hero content -->
+                <div class="text-center lg:text-left">
+
+        <!-- Heading -->
+        <span class="text-4xl font-bold bg-gradient-to-b from-blue-500 to-purple-600 text-transparent bg-clip-text mb-4">
+          Welcome to DevTech
+        </span>
+<h2
+          class="text-3xl font-bold mt-4 mb-4">Build. Learn.<span class=" bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text">
+            Solve.</span></h2>
+
+        <!-- Description -->
+        <p class="text-xl text-slate-300  mb-6 ">
+          We build modern digital solutions, provide practical training,
+          and help you solve programming challenges.
+        </p>
+      
+             <!-- Search + Button -->
+        <div class="mt-8 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+        
+          <a href="#services" class="self-center inline-flex items-center gap-2 border border-blue-500 text-blue-500 py-3 px-4 rounded-full font-medium hover:text-purple-600 hover:border-purple-600 hover:-translate-y-1 active:text-white active:bg-purple-600 active:border-purple-600 active:scale-95 transition-all duration-300 ease-in-out">Explore Services<i class="fa-solid fa-arrow-right-long"></i></a>   
+           <!-- search -->
+              <div class="relative">
+                  <a href="#"><i class="fas fa-search absolute left-3 top-5 text-blue-500 hover:text-purple-600"></i></a>
+          <input
+            type="search"
+            placeholder="Search..."
+            class="pl-10 bg-white text-black outline-none py-3 px-4 rounded-full lg:w-80 w-60 outline-none border-1 border-white"
+          />
+        </div>
+        </div>
+</div>
+            <!-- hero image -->
+             <div class="flex justify-center lg:justify-end ">
+        <img src="assets/images/development.svg" alt="Web development illustration" class=" mr-20 transition-transform duration-500 hover:scale-105"/>
+      </div>
+    </div>
+       </section>
+      <!-- features -->
+      <section id="features"class="p-10 flex flex-col justify-center items-center">
+        <div class="flex flex-col justify-center items-center text-center gap-2">
+          <h1 class="text-3xl font-bold bg-gradient-to-b from-blue-500 to-purple-600 text-transparent bg-clip-text">
+            Our Features
+          </h1>
+          <p class="mt-3 text-slate-500 m-6">
+            Here are some of the features we offer.
+          </p>
+      </div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">       
+    <!-- feature 1 -->
+        <div class="group flex flex-col gap-4 bg-white shadow-md rounded-xl border border-slate-200 p-6 text-center hover:-translate-y-2 hover:shadow-xl active:scale-95 transition-all duration-300 ease-in-out h-full">
+          <!-- icon -->
+          <div class="text-4xl text-blue-500 mb-4 group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">
+         <i class="fa-solid fa-mobile-screen-button"></i></div>
+         <!-- content -->
+        <div class="flex flex-col gap-2 flex-1">
+          <!-- heading -->
+          <h2 class="text-xl font-bold group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">Responsive Design</h2>
+          <!-- paragraph -->
+      <p class="text-slate-500 ">Our websites are designed to look great on all devices, from desktops to mobile phones.</p>
+    </div>
+    </div>
+      <!-- feature 2 -->
+        <div class="group flex flex-col gap-4 bg-white shadow-md rounded-xl border border-slate-200 p-6 text-center hover:-translate-y-2 hover:shadow-xl active:scale-95 transition-all duration-300 ease-in-out h-full">
+          <!-- icon -->
+          <div class="text-4xl text-blue-500 mb-4 group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">
+         <i class="fa-solid fa-code"></i></div>
+         <!-- content -->
+        <div class="flex flex-col gap-2 flex-1">
+          <!-- heading -->
+          <h2 class="text-xl font-bold group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">Modern Technologies</h2>
+          <!-- paragraph -->
+      <p class="text-slate-500 ">We use the latest technologies and frameworks to build robust and scalable applications.</p>
+    </div>
+    </div>
+     <!-- feature 3 -->
+        <div class="group flex flex-col gap-4 bg-white shadow-md rounded-xl border border-slate-200 p-6 text-center hover:-translate-y-2 hover:shadow-xl active:scale-95 transition-all duration-300 ease-in-out h-full">
+          <!-- icon -->
+          <div class="text-4xl text-blue-500 mb-4 group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">
+         <i class="fa-solid fa-user-check"></i></div>
+         <!-- content -->
+        <div class="flex flex-col gap-2 flex-1">
+          <!-- heading -->
+          <h2 class="text-xl font-bold group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">User-Friendly Design</h2>
+          <!-- paragraph -->
+      <p class="text-slate-500">Our designs are intuitive and easy to use, providing an excellent user experience.</p>
+    </div>
+    </div>
+       <!-- feature 4 -->
+        <div class="group flex flex-col gap-4 bg-white shadow-md rounded-xl border border-slate-200 p-6 text-center hover:-translate-y-2 hover:shadow-xl active:scale-95 transition-all duration-300 ease-in-out h-full">
+          <!-- icon -->
+          <div class="text-4xl text-blue-500 mb-4 group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">
+         <i class="fa-solid fa-headset"></i></div>
+         <!-- content -->
+        <div class="flex flex-col gap-2 flex-1">
+          <!-- heading -->
+          <h2 class="text-xl font-bold group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">Expert Support</h2>
+          <!-- paragraph -->
+      <p class="text-slate-500 ">We provide expert support to help you solve technical issues and get the most out of our services.</p>
+    </div>
+    </div>
+    
+        <!-- feature 5 -->
+        <div class="group flex flex-col gap-4 bg-white shadow-md rounded-xl border border-slate-200 p-6 text-center hover:-translate-y-2 hover:shadow-xl active:scale-95 transition-all duration-300 ease-in-out h-full">
+          <!-- icon -->
+          <div class="text-4xl text-blue-500 mb-4 group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">
+         <i class="fa-solid fa-graduation-cap"></i></div>
+         <!-- content -->
+        <div class="flex flex-col gap-2 flex-1">
+          <!-- heading -->
+          <h2 class="text-xl font-bold group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">Practical Learning</h2>
+          <!-- paragraph -->
+      <p class="text-slate-500 ">We provide practical learning experiences that help you develop your programming and technical skills.</p>
+    </div>
+    </div>
+        <!-- feature 6 -->
+        <div class="group flex flex-col gap-4 bg-white shadow-md rounded-xl border border-slate-200 p-6 text-center hover:-translate-y-2 hover:shadow-xl active:scale-95 transition-all duration-300 ease-in-out h-full">
+          <!-- icon -->
+          <div class="text-4xl text-blue-500 mb-4 group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">
+         <i class="fa-solid fa-lightbulb"></i></div>
+         <!-- content -->
+        <div class="flex flex-col gap-2 flex-1">
+          <!-- heading -->
+          <h2 class="text-xl font-bold group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">Problem Solving</h2>
+          <!-- paragraph -->
+      <p class="text-slate-500 ">We help you find effective solutions to programming and technical challenges.</p>
+    </div>
+    </div>
+  </div>
+</section>
+      <!-- services -->
+      <section id="services" class="p-10 flex flex-col justify-center items-center">
+        <div class="flex flex-col justify-center items-center text-center gap-2">
+          <h1 class="text-3xl font-bold bg-gradient-to-b from-blue-500 to-purple-600 text-transparent bg-clip-text">
+            Our Services
+          </h1>
+          <p class="mt-3 text-slate-500 m-6">
+            We offer a wide range of services to help you achieve your goals.
+          </p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 ">
+        <!-- Service 1 -->
+        <div class="group flex flex-col gap-4 bg-white shadow-md rounded-xl border border-slate-200 p-6 text-center hover:-translate-y-2 hover:shadow-xl active:scale-95 transition-all duration-300 ease-in-out h-full">
+          <!-- icon -->
+          <div class="text-4xl text-blue-500 mb-4 group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">
+         <i class="fa-solid fa-laptop-code"></i></div>
+         <!-- content -->
+        <div class="flex flex-col gap-2 flex-1">
+          <!-- heading -->
+          <h2 class="text-xl font-bold group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">Software Development</h2>
+          <!-- paragraph -->
+      <p class="text-slate-500">Developing high-quality software projects using different programming languages and technologies for your business needs.</p>
+
+    </div>
+    <!-- button -->
+    <a href="#footer" class="self-center mt-5 inline-flex items-center gap-2 border border-blue-500 text-blue-500 py-2 px-6 rounded-full font-medium hover:text-purple-600 hover:border-purple-600 hover:-translate-y-1 active:text-white active:bg-purple-600 active:border-purple-600 active:scale-95 transition-all duration-300 ease-in-out">Learn More
+      <i class="fa-solid fa-arrow-right-long"></i></a>
+  </div>
+  <!-- Service 2 -->
+        <div class="group flex flex-col gap-4 bg-white shadow-md rounded-xl border border-slate-200 p-6 text-center hover:-translate-y-2 hover:shadow-xl active:scale-95 transition-all duration-300 ease-in-out h-full">
+          <!-- icon -->
+          <div class="text-4xl text-blue-500 mb-4 group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">
+<i class="fa-regular fa-comment-dots"></i>
+        </div>
+         <!-- content -->
+        <div class="flex flex-col gap-2 flex-1">
+          <!-- heading -->
+          <h2 class="text-xl font-bold group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">
+            Technical Support & Solutions</h2>
+          <!-- paragraph -->
+      <p class="text-slate-500">
+        Providing comprehensive technical support and tailored solutions to address your business challenges and ensure optimal performance.
+      </p>
+
+    </div>
+    <!-- button -->
+    <a href="#footer" class="self-center mt-5 inline-flex items-center gap-2 border border-blue-500 text-blue-500 py-2 px-6 rounded-full font-medium hover:text-purple-600 hover:border-purple-600 hover:-translate-y-1 active:text-white active:bg-purple-600 active:border-purple-600 active:scale-95 transition-all duration-300 ease-in-out">Learn More<i class="fa-solid fa-arrow-right-long"></i></a>
+  </div>
+   <!-- Service 3  -->
+        <div class="group flex flex-col gap-4 bg-white shadow-md rounded-xl border border-slate-200 p-6 text-center hover:-translate-y-2 hover:shadow-xl active:scale-95 transition-all duration-300 ease-in-out h-full">
+          <!-- icon -->
+          <div class="text-4xl text-blue-500 mb-4 group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">
+<i class="fa-solid fa-briefcase"></i>        </div>
+         <!-- content -->
+        <div class="flex flex-col gap-2 flex-1">
+          <!-- heading -->
+          <h2 class="text-xl font-bold group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">Workspaces
+</h2>
+          <!-- paragraph -->
+      <p class="text-slate-500">Creating efficient and user-friendly workspaces that enhance productivity and collaboration for your team.</p>
+
+    </div>
+    <!-- button -->
+    <a href="#footer" class="self-center mt-5 items-center gap-2 border border-blue-500 text-blue-500 py-2 px-6 rounded-full font-medium hover:text-purple-600 hover:border-purple-600 hover:-translate-y-1 active:text-white active:bg-purple-600 active:border-purple-600 active:scale-95 transition-all duration-300 ease-in-out">Learn More<i class="fa-solid fa-arrow-right-long"></i></a>
+  </div>
+   <!-- Service 4 -->
+        <div class="group flex flex-col gap-4 bg-white shadow-md rounded-xl border border-slate-200 p-6 text-center hover:-translate-y-2 hover:shadow-xl active:scale-95 transition-all duration-300 ease-in-out h-full">
+          <!-- icon -->
+          <div class="text-4xl text-blue-500 mb-4 group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">
+<i class="fa-solid fa-graduation-cap"></i>
+        </div>
+         <!-- content -->
+        <div class="flex flex-col gap-2 flex-1">
+          <!-- heading -->
+          <h2 class="text-xl font-bold group-hover:text-purple-600 group-active:text-purple-600 transition-colors duration-300 ease">Courses & Training
+</h2>
+          <!-- paragraph -->
+      <p class="text-slate-500 ">Providing comprehensive courses and training programs to enhance your skills and knowledge in various technologies.</p>
+
+    </div>
+    <!-- button -->
+    <a href="#footer" class="self-center mt-5 inline-flex items-center gap-2 border border-blue-500 text-blue-500 py-2 px-6 rounded-full font-medium hover:text-purple-600 hover:border-purple-600 hover:-translate-y-1 active:text-white active:bg-purple-600 active:border-purple-600 active:scale-95 transition-all duration-300 ease-in-out">Learn More<i class="fa-solid fa-arrow-right-long"></i></a>
+  </div>
+    </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer id ="footer" class="bg-slate-950 px-6 pt-12" >
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+          <!-- project Name -->
+          <div class="flex flex-col items-center">
+            <h3
+              class="text-3xl font-bold bg-gradient-to-b from-blue-500 to-purple-600 text-transparent bg-clip-text">
+         DevTech
+            </h3>
+            <p class="mt-3 text-slate-500">
+                Your journey to better code, smarter solution, and mastering web development starts here.
+            </p>
+          </div>
+          <!-- links  -->
+          <div class="flex flex-col items-center">
+            <h4 class="text-white font-semibold mb-4 ">Follow Us</h4>
+            <div class="flex gap-5">
+            <a href="#" class="text-blue-500 hover:text-purple-600 transition-colors duration-300 ease"><i class="fa-brands fa-facebook"></i> </a>
+            <a href="https://github.com/alaaNafez" target="_blank" class="text-blue-500 hover:text-purple-600 transition-colors duration-300 ease"
+              ><i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/alaanafez/" target="_blank" class="text-blue-500 hover:text-purple-600 transition-colors duration-300 ease"
+              ><i class="fa-brands fa-linkedin"></i>
+            </a></div>
+          </div>
+          <!-- Contact Information -->
+          <div class="flex flex-col items-center">
+ <h4 class="text-white font-semibold mb-4">
+        Contact Information
+      </h4>         
+         <div class="flex flex-col gap-2 text-slate-500">
+              <p><i class="fa-regular fa-envelope"></i> alaa@gmail.com</p>
+              <p><i class="fa-solid fa-phone-volume"></i> +970 599 000 000</p>
+            </div>
+          </div>
+        </div>
+        <!-- Copyright -->
+        <div class="font-bold pt-6 pb-6 border-t border-slate-800 text-center text-slate-500 mt-3">
+          <p>DevTech 2026 &copy;  All Rights Reserved.</p>
+        </div>
+    </footer>
+  </body>
+</html>
