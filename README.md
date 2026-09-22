@@ -20,7 +20,3 @@ A responsive landing page built as part of the TechMood Front-End Development Bo
 ## Live Demo
 
 [View Website](https://alaanafez.github.io/TechMood_TM_FRONTEND_L04_Tailwind_Landing_Page/)
-
-## Author
-
-Alaa Nafez AL-Shopaki
